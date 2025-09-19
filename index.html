@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio - Khoiril Awall</title>
+  <link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+</head>
+<body>
+  <!-- Sidebar -->
+  <aside class="sidebar">
+    <div class="profile">
+      <img src="assets/Sasuke.jpeg" alt="profile">
+      <h2>Khoiril Awal Ramadhani</h2>
+     <div class="social-icons">
+  <a href="https://wa.me/085878884169" target="_blank"><i class="fab fa-whatsapp"></i></a>
+  <a href="https://instagram.com/khoiril.awal" target="_blank"><i class="fab fa-instagram"></i></a>
+  <a href="https://facebook.com/Wallkid" target="_blank"><i class="fab fa-facebook"></i></a>
+  <a href="https://tiktok.com/@khoirilawal" target="_blank"><i class="fab fa-tiktok"></i></a>
+  <a href="https://youtube.com/@khoirilawal8343" target="_blank"><i class="fab fa-youtube"></i></a>
+</div>
+
+    </div>
+    <nav>
+      <ul>
+        <li><a href="#home" class="active"><i class="fas fa-home"></i> Home</a></li>
+        <li><a href="#about"><i class="fas fa-user"></i> About</a></li>
+        <li><a href="#portfolio"><i class="fas fa-briefcase"></i> Portfolio</a></li>
+        <li><a href="#services"><i class="fas fa-cogs"></i> Services</a></li>
+        <li><a href="#contact"><i class="fas fa-envelope"></i> Contact</a></li>
+      </ul>
+    </nav>
+  </aside>
+
+  <!-- Main Content -->
+  <main>
+    <section id="home" class="hero">
+      <div class="overlay"></div>
+      <div class="hero-content">
+        <h1>Hi, I'm <span>Khoiril Awall</span></h1>
+        <p class="typing"></p>
+        <a href="#portfolio" class="btn">View My Work</a>
+      </div>
+    </section>
+
+    <section id="about">
+      <h2>About Me</h2>
+      <p>Saya adalah siswa yang aktif dan antusias di bidang teknologi dan desain grafis. Saya senang belajar hal-hal baru dan bekerja secara kolaboratif dalam tim.</p>
+    </section>
+
+    <section id="portfolio">
+      <h2>Portfolio</h2>
+      <div class="portfolio-grid">
+  <div class="card"> 
+    <img src="assets/cek.jpeg" alt="Project 1">
+    <h3>Project 1</h3>
+    <p>Deskripsi singkat project pertama.</p>
+  </div>
+  <div class="card">
+    <img src="assets/cek.jpeg" alt="Project 2">
+    <h3>Project 2</h3>
+    <p>Deskripsi singkat project kedua.</p>
+  </div>
+  <div class="card">
+    <img src="assets/cek.jpeg" alt="Project 3">
+    <h3>Project 3</h3>
+    <p>Deskripsi singkat project ketiga.</p>
+  </div>
+</div>
+
+      
+    </section>
+
+  <section id="services">
+  <h2>Services</h2>
+  <div class="services-grid">
+    <div class="service-card">
+      <i class="fas fa-laptop-code"></i>
+      <h3>Web Development</h3>
+      <p>Membangun website modern, responsif, dan interaktif.</p>
+    </div>
+    <div class="service-card">
+      <i class="fas fa-paint-brush"></i>
+      <h3>Graphic Design</h3>
+      <p>Membuat desain visual kreatif untuk kebutuhan digital.</p>
+    </div>
+    <div class="service-card">
+      <i class="fas fa-gamepad"></i>
+      <h3>Pro Player</h3>
+      <p>Gameplay, streaming, dan turnamen dengan performa terbaik.</p>
+    </div>
+    <div class="service-card">
+      <i class="fas fa-camera"></i>
+      <h3>Fotografer</h3>
+      <p>Menangkap momen berharga dengan hasil foto estetik dan profesional.</p>
+    </div>
+  </div>
+</section>
+
+
+
+   <section id="contact">
+  <h2>Contact Me</h2>
+  <form id="contactForm">
+    <input type="text" id="name" placeholder="Your Name" required>
+    <input type="email" id="email" placeholder="Your Email" required>
+    <textarea id="message" placeholder="Your Message" required></textarea>
+    <button type="submit" class="btn">Send</button>
+  </form>
+
+  <h3>📩 Messages</h3>
+<div id="messagesList"></div>
+<button onclick="clearMessages()" class="btn">Hapus Semua Pesan</button>
+
+</section>
+
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
